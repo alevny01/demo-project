@@ -12,6 +12,8 @@ node {
 
     }
 
+// stage means one project
+
     stage('Generate report'){
            cucumber failedFeaturesNumber: -1,
             failedScenariosNumber: -1,
